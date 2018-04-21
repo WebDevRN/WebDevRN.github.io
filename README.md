@@ -3,6 +3,9 @@ Somos uma organização regional do Rio grande do norte, com finalidade apresent
 
 # Quem somos :beer:
 
-Somos um grupo de desenvolvedores com a finalidade de reunir o máximo numero de desenvolvedores norte rio grandense e assim divulgar conhecimentos, eventos, dúvidas, e ajudas mutuas, aqui é onde haverão varios desenvolvedores assim facilitando para você que procura por desenvolvedores.
+Somos um grupo de desenvolvedores com a finalidade de reunir o máximo numero de desenvolvedores norte rio grandense e assim 
+divulgar conhecimentos, eventos, dúvidas, e ajudas mutuas, aqui é onde haverão varios desenvolvedores assim facilitando para você 
+que procura por desenvolvedores.
 
 # WebDevRN like companies :heart:
+Para empresas e organizações.
