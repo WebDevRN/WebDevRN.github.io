@@ -1,0 +1,13 @@
+/* Para mudar o fundo do texto */
+.fundo{
+    background-image: url(https://media2.giphy.com/media/BHNfhgU63qrks/source.gif);
+    -webkit-background-clip: text;
+    color:transparent;
+    background-position: bottom;
+    background-attachment: fixed;
+    animation-name:totop;
+    animation-duration:0.8s
+}
+.grande{
+ font-size: 08em
+}
