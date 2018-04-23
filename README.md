@@ -1,9 +1,6 @@
 <h1 align="center">
   <a href="https://WebDevRN.github.io/"><img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="WebTorrent" width="600"></a>
-  <br>
-  WebDevRN
-  <br>
-  <br>
+
 </h1>
 
 Somos uma organização regional sem fins lucrativos, do Rio grande do norte, com finalidade apresentar nossos desenvolvedores e
