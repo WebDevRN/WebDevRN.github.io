@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://WebDevRN.github.io/"><img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="WebTorrent" width="200"></a>
+  <a href="https://WebDevRN.github.io/"><img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="WebTorrent" width="600"></a>
   <br>
   WebDevRN
   <br>
