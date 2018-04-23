@@ -1,11 +1,3 @@
 User-agent: *
 Allow:/
 Allow:/index.html
-Allow:/HTTP_-_Resposta/
-Allow:/POP-image/
-Allow:/HTTP-Escudo/
-Allow:/Texto-farmatacao/
-Allow:/artigo/Seja_performatico_-_efeito_scroll_com_6_linhas_sem_jquery/
-Allow:/artigo/scroll-com-uma-linha-css/
-Allow:/artigo/background-em-texto/
-Allow:/artigo/
