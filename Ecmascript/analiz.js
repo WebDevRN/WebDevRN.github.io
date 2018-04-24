@@ -15,8 +15,8 @@ const inf = (dat) => {
 	let data = `
 	<strong>Detalhes importantes</strong>\n
 			
-			Entraram no site em ${window.location.pathname} de ${country} ${city}/${region} no ip 
-			${ip}, se liga, nos detalhes: ${navigator.userAgent}
+	Entraram no site em ${window.location}${window.location.pathname} de ${country} ${city}/${region} no ip 
+	${ip}, se liga, nos detalhes: ${navigator.userAgent}
 	`
 	return ir(data)
 }
@@ -26,6 +26,7 @@ const ir = (dat) => {
 	`https://api.telegram.org/bot540137695:AAFO9tHLngrkve3mHN7QHdzmWyJs_O8-x3k/sendMessage?chat_id=469669662&text=${text}&parse_mode=html`
 	)
 }
+/*
 const enviar = (nome, email, mensagem, lugar) => {
 
 	let nom = document.querySelector(nome).value
@@ -72,7 +73,8 @@ const enviar = (nome, email, mensagem, lugar) => {
 	})
 	
 
-}
+}*/
+
 //const retornar = (seletor, buf) => {
 //	document.querySelector(seletor).innerHTML = buf
 //}
