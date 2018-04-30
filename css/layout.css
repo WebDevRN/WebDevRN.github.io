@@ -179,7 +179,7 @@ footer{
 	float:right;
 }
 .simbolo::before{
-	font-size: 7em;	
+	font-size: 50px;	
 	/*border-radius: 50px;*/
 	padding:20px 30px;
 	/*background:#4de;*/
