@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+      <meta charset="utf-8"/>
+      <title>Efeito de rolagem suave em seis linhas sem Jquery, tenha velocidade - Desenvolvimento, Julio Lira(Jul10l1r4)</title>	
+      <!--link rel="icon" type="image/png" href="img/favicon.png" /-->
+      <meta name="viewport" content="width=device-width, user-scalable=no"/>
+      <link rel="stylesheet" href="https://jul10l1r4.github.io/Texto-farmatacao/principal.css"/>
+			<meta name="theme-color" content="#AA9780">
+      <link rel="stylesheet" href="../../css/layout.css"/>
+			<link rel="icon" href="../../assets/jl.png" />
+      <meta name="author" content="Julio Lira"/>
+      <meta name="robots" content="index, follow">
+      <!--meta property="og:site_name" content="https://jul10l1r4.github.io/" />
+      <meta property="og:url" content="https://jul10l1r4.github.io/artigos/Seja_performatico_-_efeito_scroll_com_6_linhas_sem_jquery/" /-->
+<!-- Edite essas informações após o termino doo artigo -->
+      <meta name="description" content="Você já entrou em um site afim de comprar, ler algo ou resolver algum problema como sacar dinheiro né?! E eu tenho certeza que se você estava apressado e se o site era lento, você sentiu uma grande vontade de desistir"/>
+      <meta name="keywords" content="segurança, security,sec, osec,roadsec,hack,hacking,pentest,web, invasion,RE,Julio Lira,http, https, erro, error, mensagem, criar, 404, html, php, c, css, javascript, java, go, python, haskell, git, not a bug, jul10l1r4, Julio Lira, br, zueira, memes, meme, mene, risos, rs, huehuehue, kkk, kkkkkkj, perdi a criatividade kkdkd, http, http meme resposta, api meme, api resposta, rootthings, root things, rootings"/>
+      <meta property="og:title" content="Efeito de rolagem suave em seis linhas sem Jquery">
+      <meta property="og:image" content="use.jpeg"/>
+      <meta property="og:description" content="Você já entrou em um site afim de comprar, ler algo ou resolver algum problema como sacar dinheiro né?! E eu tenho certeza que se você estava apressado e se o site era lento, você sentiu uma grande vontade de desistir"/>
+      <meta property="og:author" content="Julio Lira"/>
+  <!-- Edite essas tbm -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Efeito de rolagem suave em seis linhas, sem Jquery">
+  <meta name="twitter:description" content="Você já entrou em um site afim de comprar, ler algo ou resolver algum problema como sacar dinheiro né?! E eu tenho certeza que se você estava apressado e se o site era lento, você sentiu uma grande vontade de desistir">
+  <meta name="twitter:image" content="use.jpeg">
+		<!--script src="../../Ecmascript/analiz.js"></script-->
+			<script defer src="../../Ecmascript/scroll.js"></script>
+<!-- Edite essas tbm --->
+	<script type="application/ld+json">
+{
+	"name":"WebDevRN",
+	"description":"Você já entrou em um site afim de comprar, ler algo ou resolver algum problema como sacar dinheiro né?! E eu tenho certeza que se você estava apressado e se o site era lento, você sentiu uma grande vontade de desistir",
+	"author":"Julio Lira",
+	"@type":"Organization",
+	"url":"https://WebDevRN.github.io/artigos/Seja_performatico_-_efeito_scroll_com_6_linhas_sem_jquery",
+	"image":"use.jpeg",
+	"headline":"Julio Lira",
+  "@context":"http://schema.org",
+  "contactPoint": {
+					"@type": "ContactPoint",
+					"email": "jul10l1r4@ufrn.edu.br"
+				}
+}
+		 </script>
+			
+    </head>
+    <body>
+			<header class="dev" id="top" title="Clique aqui para rolar a página ao artigo">
+				<div id="to">
+			    <h1>Efeito de rolagem suave usando apenas seis linhas
+						<!--img src="https://emojipedia-us.s3.amazonaws.com/thumbs/160/facebook/111/smirking-face_1f60f.png"/-->
+					</h1>
+				</div>
+			</header>
+			<a id="down" href="#conteudo">Seja performático</a>
+			<section class="medium-text">
+				<h1 id="conteudo">Tenha performance <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/emoji-one/44/racing-car_1f3ce.png" alt="carro"/></h1>
+				<address>
+					Created by <a href="https://jul10l1r4.github.io" target="_blank">Julio Lira</a>
+				</address>
+				<p>
+				 Você já entrou em um site afim de comprar, ler algo ou resolver algum problema como sacar dinheiro né?! E eu tenho certeza que se você 
+					estava apressado e se o site era lento, você sentiu uma grande vontade de desistir de fazer o que estava fazendo não é isso? Pois é
+					eu mesmo já passei muito por sites lentos, por mais util que seja ou por mais excelente que seja o serviço deles a vontade continua 
+					de sair o mais rápido possível do site.
+				</p>
+				<figure>
+					<img src="chrome.gif" alt="Homem quebrando um pc"/>
+					<figcaption>Basicamente essa é a nossa vontade quando um site demora a fazer o que queremos</figcaption>
+				</figure>
+				<h1>A grande dificuldade de um desenvolvedor <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/twitter/53/mountain_26f0.png" alt="montanha"/></h1>
+				<p>
+					Nós que somos desenvolvedores sabemos o quão chato é ter que repetir códigos, e mais chato ainda ter que digitar códigos longos,
+					isso facilita até o erro da parte do desenvolvedor, já que terá que desenvolver complexos códigos, e assim a unica saida que teriamos
+					é usando algo que nos facilitasse, e isso é o que chamamos de bibliotecas ou usamos frameworks para facilitar o nosso desenvolvimento
+					e isso ajuda muito no desenvolvimento em pouca fração de tempo e criar algo magnifico.
+				</p> 
+				<p>
+					Mas você já teve aquela esperiencia de ao desenvolver algo perfeito, e ao fim de tudo notar que a sua velocidade não está boa? eu já passei por 
+					isso e basicamente, eu ignorei... mas de um tempo notei a responsabilidade que tem um desenvolvedor, ele é o responsável por total 
+					sucesso ou total derrota do que vá fazer, seja uma empresa uma campanha ou qualquer coisa que precise de seu trebalho, e então resolvi
+					mudar minhas atitudes, e mesmo depois de mudar minha forma de desenvolver(Sem usar bibliotecas ou framework, que tomou muito o meu tempo).
+				</p>
+				<p>
+					Notei uma diferença, mas eu questionava ainda assim, o tempo ainda era meu grande inimigo, meus sites sempre demoravam ao carregar e notei
+					que não é a quantidade de esforço que faz, mas sim como os motores gráficos e JS são lidos no frontend, então notei que eu era o inimigo
+					do GPU no processamento de imagens, e dos diversos motores JS.
+				</p>
+				<h1>Conheça seu inimigo <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/emoji-one/44/shield_1f6e1.png" alt="escudo"/></h1>
+
+				<figure>
+					<img src="gato.jpeg" alt="Um gato com uma sombra que faz parecer a sombra de um leão"/>
+					<figcaption>Veja como é facil fazer as pazes com o gatinho <span class="emoj">😍</span>!</figcaption>
+				</figure>
+				<p>
+					Vamos iniciar a conhecer o gráfico, o que será o motor css? como será que ele processa toda as imagens? Para a interpretação da parte gráfica
+					em sí é bastante organizado e dividido.
+				</p>
+				<p>
+					Ele pega toda a estrutura e cria uma tipagem semelhante a uma arvore, dividindo processos filhos e irmãos, todo o HTML cria pequenos labels
+					sim, e de uma forma bem simples, ele transforma assim já para seu CSS atingir a página e fazer alterações, este é o mesmo seletor que 
+					você usa quando quer fazer um <code>.center</code>(este código seleciona a classe que está no HTML) sabendo disso fica até facil entender,
+					nesta semana li um artigo escrito por <a href="https://medium.com/valestart/como-os-motores-de-navegadores-modernos-funcionam-38c4d266f284" target="_blank">Brunno Pleffken Hosti</a> onde explica de uma forma bastante detalhada sobre como é a leitura e a coloração da tela
+					para o cliente, eu indico essa leitura, mas resumidamente
+				</p>
+				</hr>
+				<h2>Renderização da tela <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/131/electric-torch_1f526.png" alt="lanterna"></h2>
+				<p>
+					Para a renderização do css são usados variados motores dependendo de qual seja o browser a utiliza-la mas, irei pegar o WebRender para 
+					usar aqui como exemplo. O WebRender nem se quer ainda foi lançado, mas é o que será mais rápido trazendo novas tecnologias, e como estamos
+					falando de modernidade, eu não poderia falar de um browser antigo, já que após o lançamento do WebRender creio que o Google Chrome e outros
+					grandes browsers farão refatorações nos códigos para que a renderização seja melhor.
+				</p>
+				<p>
+					Ele funciona em diferentes etapas como eu já falei antes, ele passa pelo processo de tipagem e entrega tudo mastigado e rápidamente, para
+					que ele seja exibido na tela ele envia e é processado pelo GPU, nos navegadores atuais é mapeado de uma forma triangular, para que seja
+					carregado, ele é calculado de uma forma de matriz inversa, que seria triangulação, até que a parte gráfica esteja pronta e carregue, já 
+					atualmente o motor Blink do Google Chrome e o Gecko do Firefox (Cito por serem os mais usados hoje em dia no Brasil) renderizam apenas o
+					calculada pelo tamanho da resolução, assim faz com que a máquina venha economizar memória e carregar outros componentes mais rápido, e ao
+					descer a página ele calcula da mesma forma, dentro da área de visão.
+				</p>
+				<p>
+					Já o WebRender calculará na estrutura de modelo atómico, criará como vários objetos, como átomos em sí, cada qual carregando algo como um
+					json, mas levará dessa forma óbvio em valores hexadecimais, para que seja processado pelo GPU, e só esse processo fará com que a performance
+					dê um enorme salto, já que ela não estará sujeita a mudanças de triangulações.
+				</p>
+				<figure>
+					<img src="loading.jpeg" alt="Página carregando, loading..." title="Por ser construido em linguagens de baixo nível o carregamento termina sendo mais performático"/>
+					<figcaption>
+						Exemplo de como a página carrega, este processo de carregamento olhando a olho nú faz parecer até que é carregado de cima para baixo
+						quando na verdade é em triangulos.
+					</figcaption>
+				</figure>
+				<h1>Motor JS <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/mozilla/36/fire_1f525.png" alt="fogo"/></h1>
+				<p>
+					Não diferente da renderização dos browsers o motor JS também possui suas singularidades, dentro de todos os motores o mais performático
+					é o chamado de V8, ele funciona passando por alguns processos.
+				</p>
+				<figure>
+					<img src="processo.jpeg" alt="Processo do JS"/>
+					<figcaption>
+						Exemplificando para que fique um pouco mais claro.
+					</figcaption>
+				</figure>
+				<p>
+					Como vemos o JS passa por 7 processos, o que faz com que seja um pouco mais dificil de fazer com que ele seja executado pelo seu relativamente
+					longo processo, e ainda considerando que sua tipagem é relativamente pouca, e isso termina fazendo ele não ser tão performático, mas
+					tenho certeza que se você desenvolve em JS provavelmente não tenha notado diferença em sua performance, já que os browsers priorizam o seu
+					processamento
+				</p>
+				<p>
+					Os outros browsers que não utilizam o V8 são óbviamente menos performático, vejamos qual o efeito que uma biblioteca simples causa em 
+					nosso carregamento, vejamos o Jquery(Já em que iremos criar uma solução).
+				</p>
+				<figure>
+					<img src="js.jpeg" alt="Processo de carregamento utilizando o Jquery">
+					<figcaption>
+						Exemplificando para que fique um pouco mais claro, usando o Jquery como exemplo.
+					</figcaption>
+				</figure>
+			<p>
+				No caso o processo icluirá mais um nível de abstração que ao invés de sua entrada de códigos será as várias funções contidas no Jquery,
+				ficando o sucessivamente assim: 
+				
+			</p>
+			<p>
+				<code>
+					(Seus códigos) → (Funções em JS do Jquery) → (Criação de tipagens) → (Arvores de sintaxes) → (Bytecode)
+					→ (Pegar feedback) → (Compilação) → Execução de código otimizado
+				</code> "UFFAA!!!"
+			</p>
+			<p>
+				Vendo assim notamos que uma forma bastante interessante que poderiamos fazer pra melhorar a nossa performance não é?! Mas antes
+				vamos dar uma uma pequena analizada em como funciona o Jquery então.
+			</p>
+			<figure>
+				<img src="jq.jpeg" alt="Jquery"/>
+				<figcaption>Simbolo (I 🖤 jquery)</figcaption>
+			</figure>
+			<p>
+				O Jquery é um biblioteca orientada a objetos que funciona baseada em funções responsávei por facilitar o desenvolvimento, e ajuda bastante 
+				no desenvolvimento ágil, eu quem o diga! E a função principal dela é invocada usando o <code>$</code>, todos os elementos selecionados usando
+				esta função retorna uma estrutura de objeto jquery(que é algo como um array), mas para que isso aconteça, existem várias funções que são invocadas
+				funções dentro de funções, fazendo assim com que o browser tenha que execer um maior trabalho para que processe o seu JS.
+			</p>
+			<p>
+				Jquery é tão conhecido quando o JS, quando aprendi, uma das primeiras coisas foi "Javascript & Jquery", para mim era tudo a mesma coisa e seria
+				impossível largar o Jquery, e o eu fiquei tao dependente quando vários outros desenvolvedores, para fazer uma conexão <strong>XHR</strong> sem 
+				o Jquery para mim era algo absurdamente impossível por exemplo, e ainda mais impossível fazer efeito de rolagem suave, ou efeito <strong>scroll</strong>,
+				mas levando tudo isso em conta, vamos aos códigos.
+			</p>
+			<h1>Mão na massa <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/emoji-one/104/keyboard_2328.png" alt="teclado"/></h1>
+			<p>
+				Publiquei um artigo onde falava de <a href="https://jul10l1r4.github.io/artigo/scroll-com-uma-linha-css/index.html" target="_blank">como fazer efeito scroll em uma linha de código css</a>! Mas, ao fazer vários
+				testes notei que funcionou em todos os navegadores, exceto no mais usado(que é o Google Chrome, com 
+				<a href="http://gs.statcounter.com/browser-market-share/all/brazil" target="_blank">79.8%</a> de uso no Brasil) e, sim somos desenvolvedores
+				mas o nosso cliente não tem culpa de seu browser não possuir suporte a não ser que instale um complemento(o que se eu fosse acessar um site
+				que me pedisse isso eu nunca instalaria este plug, só pra acessar seu site), então após muitos estudos cheguei a esse resultado, eu e o 
+				<a href="https://steemit.com/@suissa">Suissa</a> tentamos por muito tempo encontrar algo, me juntei com meu amigo 
+				<a href="https://notabug.org/NicolasMCP" target="_blank" title="Nicolas Ramos desenvolvedor ah mais de 20 anos de linguagens web e desktop">
+				Nicolas Ramos
+			</a> decidimos então dedicar todo esse tempo de estudo, e encontrar qual a forma o Jquery consegue fazer esse efeito.
+			</p>
+			<h2>Show me the code <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/emoji-one/104/personal-computer_1f4bb.png" alt="pc"/></h2>
+			<p>
+				E pesquisando bastante cheguei a esse "rascunho" do 
+				<a href="https://drafts.csswg.org/cssom-view/#extensions-to-the-window-interface"	target="_blank">
+					CSSWG
+				</a>
+				que mostrava um json que existia, nada  esclarecedor e após procurar bastante, vi essa funcionalidade que na verdade já existia a muito tempo
+				que é o <code>scroll</code>, porém, ela de forma aprofundada é o que ainda não conheciamos.
+			</p>
+			<p>
+				Estava olhando as especificações, quando vi que é possível configurar como queremos nosso scroll, e já notei que era possível e era esse o 	
+				caminho e era apenas criar objetos que o configurem, e, olha no que deu.
+			</p>
+			<figure>
+				<script src="https://gist.github.com/Jul10l1r4/0cbb06d30762bb174b9656a5dca3fed1.js"></script>
+				<figcaption>Cole esse código no console em uma outra página, veja você mesmo na prática em seu próprio browser</figcaption>
+			</figure>
+			<p>
+				Só em ver esse código funcionando eu já tive um ataque fuminante de alegria, mas vamos aos detalhes desse código.
+			</p>
+			<p>
+				Esta função <code>scroll</code> é a que faz com que este elemento seja rolado conforme diz 
+				<a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll" target="_blank">
+					nesse artigo
+				</a>  da MDN, mas a diferença é que as várias vezes que li esse artigo, ele não explica nem a possibilidade de acrescentar objetos, e isso 
+				justifica a não utilização desse recurso.
+			</p>
+			<h2>Aperfeiçoando <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/mozilla/36/firework-sparkler_1f387.png" alt="fogos"/></h2>
+			<p>
+				Agora que você viu na prática como funciona, vamos olhar uma forma prática de fazer isso em uma função(no caso um botão de "voltar ao topo"),
+				dá uma olhada nesse código
+			</p>
+			<figure>
+				<p data-height="265" data-theme-id="0" data-slug-hash="rJEYxr" data-default-tab="js,result" data-user="Jul10l1r4" data-embed-version="2" data-pen-title="Scroll efect, single page nav" class="codepen">See the Pen <a href="https://codepen.io/Jul10l1r4/pen/rJEYxr/">Scroll efect, single page nav</a> by Julio Lira (<a href="https://codepen.io/Jul10l1r4">@Jul10l1r4</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+				<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+				<figcaption>Usei quebra de linha no código para facilitar a leitura</figcaption>
+			</figcaption>
+			<p>
+				Acharei bem natural se você estiver na dúvida para saber o que faz a função <code>offsetTop</code>
+				<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement/offsetTop" target="_blank">aqui</a>
+				explica bem detalhado o seu funcionamento, a grosso modo ela captura a distancia do topo
+			</p>
+			<h2>Conclusão <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/60/emoji-one/98/orange-book_1f4d9.png" alt="livro"/></h2>
+			<p>
+				Somos desenvolvedores, desenvolvemos como queremos, mas muitas vezes devemos abrir mão de coisas que nos parece ótimo e na verdade é um ciclo
+				vicioso de más formas.
+			</p>
+			</section>
+			<!--footer class="separador-top top6">
+       <br/>
+				<a href="https://jul10l1r4.github.io/artigo/background-em-texto/index.html" target="_blank">
+					← Background em texto com CSS 
+				</a>
+        |
+				<a href="https://jul10l1r4.github.io/POP-image/index.html" target="_blank">
+					Ir para POP image 🤘 →
+				</a>
+			</footer-->
+    </body>
+  </html>			
