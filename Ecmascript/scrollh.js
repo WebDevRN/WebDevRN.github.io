@@ -57,5 +57,4 @@ const go = (elemento) => {// Arrow function levando um parâmetro que será um s
 	  left: 0,// Obrigatório, nao queremos movimentos horizontais
 	  behavior: 'smooth' // Unico efeito, dá a instrução ao browser que ele movaaaa uhuuull caraaai
   });// terminouuu fiii, só isso, c n vai precisar exporrtar mais 5000mil instruçoes de dados da porra do jquery
-} 
-
+}
