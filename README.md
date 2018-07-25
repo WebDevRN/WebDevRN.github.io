@@ -1,3 +1,13 @@
+# Colabore
+ Para colaborar use a branch `draft` sendo assim rode
+```git
+  git clone -b draft https://github.com/WebDevRN/WebDevRN.github.io.git
+```
+E depois das alterações feitas rode apenas:
+```git
+  git pull-request 
+```
+:metal: Simples assim, sua ajuda será bem vinda
 <h1 align="center">
   <a href="https://WebDevRN.github.io/"><img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="WebTorrent" width="600"></a>
 
