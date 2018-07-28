@@ -6,7 +6,7 @@
 ```
 E depois das alterações feitas rode apenas:
 ```git
-  git pull-request 
+  git pull 
 ```
 
 <h1 align="center">
