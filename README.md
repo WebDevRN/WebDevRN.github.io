@@ -45,7 +45,7 @@ que procura por desenvolvedores.
 
 Nossa organização também tem por objetivo de oferecer um leque de potenciais na área do desenvolvimento web full stack que pode
 
-ser útil para sua empresa ou organização, no site poderá ver coisas como, atuação, esperiência profissional, e especializações,
+ser útil para sua empresa ou organização, no site poderá ver coisas como, atuação, experiência profissional, e especializações,
 
 e assim fazer você mesmo sua escolha indo diretamente para o funcionário que deseja e conversando com ele por email, telegram, 
 
