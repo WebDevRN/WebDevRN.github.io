@@ -24,7 +24,8 @@ Quando finalizar as sugestões, entre no terminal e acesse o diretório do repos
 
 Pronto, as suas sugestões estão na sua máquina local, prestes a serem enviadas para seu usuário no GitHub. Se lembrou de algo a ser melhorado (e evitar fazer os passos até agora novamente), a hora de revertê-las é [agora](https://brorlandi.github.io/git-desfazendo-commits "Artigo explicativo sobre essa operação"). Se está tudo ok, faça o seguinte:
 * verifique o nome que o GitHub deu ao repositório online no seu usuário digitando o comando `git remote` (provavelmente será o nome _origin_).
-* envie o seu repositório atual para o repositório online com o comando `git push <nome que o GitHub deu ao seu repositório online - vide passo anterior, sem essas tags aqui> draft`.
+* talvez o GitHub vá recusar a versão local que você está submetendo, por não estar sincronizado com a última versão online. Uma maneira de se resolver esse impasse é utilizando `git pull <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem as tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git pull origin draft`.
+* envie o seu repositório atual para o repositório online com o comando `git push <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem essas tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git push origin draft`.
 
 Pronto! Seu repositório online já estará com suas sugestões atualizadas. Verifique em seu navegador como ficaram. Depois que revisar e considerar que estão ok mesmo, é chegada a hora da sua sugestão se efetivar! :smiley:
 
