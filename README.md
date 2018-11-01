@@ -34,9 +34,11 @@ Entre no repositório em seu usuário e veja que agora o botão verde diz `"Comp
 
 Pronto! Sua sugestão foi submetida e agora a analisaremos com carinho! :blush:
 * * *
-<center>
-  [![Logotipo da comunidade WebDevRN](https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg "WebDevRN")](https://WebDevRN.github.io/ "Site do WebDevRN")
-​</center>
+<h1 align="center">
+  <a href="https://WebDevRN.github.io/" title="Site do WebDevRN">
+    <img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="Logotipo da comunidade WebDevRN" width="600">
+  </a>
+</h1>
 
 # Sobre a WebDevRN
 Somos um grupo de desenvolvedores legais e descolados! :grin:
@@ -76,4 +78,4 @@ Poderá incluir sites e sistemas feitos por você (ou com sua participação), p
 
 # Quer executar um projeto? :tophat:
 Você é uma empresa ou profissional de outra área e deseja contratar profissionais de TI que atuem na web?
-Pode utilizar nosso diretório a vontade, entrando em contato com quem é da atuação específica que necessita ou com a coordenação do WebDevRN, que tentaremos buscar a melhor pessoa para suas necessidades de projeto ou negócio! 
+Pode utilizar nosso diretório a vontade, entrando em contato com quem é da atuação específica que necessita ou com a coordenação do WebDevRN, que tentaremos buscar a melhor pessoa para suas necessidades de projeto ou negócio!
