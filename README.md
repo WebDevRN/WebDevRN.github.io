@@ -1,6 +1,23 @@
 # Colabore
+## Git
+ Para sugerir melhorias em nosso site, bifurque (clicando no _fork_, aqui mesmo no canto superior direito desta página) este repositório para seu usuário no GitHub, e então clone-o para sua estação local. Para realizar esta operação, é recomendado que faça-a utilizando o endereço SSH da versão do repositório em seu usuário. Para utilizá-lo, entre no repositório _"forkado"_ e clique no botão verde _"Clone or download"_, logo acima da lista de arquivos e copie a chave que se encontra lá.
 
- Para simular o ambiente em seu local:
+ Em seu terminal, quando estiver no diretório em que preferir trabalhar, com o git devidamente instalado, utilize o comando:
+ ```
+ git clone <chave ssh copiado do seu repositório no github, sem essas tags aqui>
+ ```
+Para criar a _branch_ de sugestão, comece pelos seguintes comandos:
+  ```
+ git branch draft
+ git checkout draft
+ ```
+ ou, apenas `git checkout -b draft`.
+
+ Agora, sim, pode trabalhar nas sugestões, utilizando os softwares que preferir para edição de código :yellow_heart:
+
+ Quando finalizar as sugestões, ainda estando na _branch_ draft, adicione os arquivos para sua _Staged area_ local usando no terminal: `git add`
+   o SSH quando este estiver em
+  uma branch simular o ambiente em seu local:
 
 ```git
 
@@ -31,9 +48,9 @@ reunir todos nós assim aumentando o conhecimento de cada um de nossos desevolve
 
 ​
 
-Somos um grupo de desenvolvedores com a finalidade de reunir o máximo numero de desenvolvedores norte rio grandense e assim 
+Somos um grupo de desenvolvedores com a finalidade de reunir o máximo numero de desenvolvedores norte rio grandense e assim
 
-divulgar conhecimentos, eventos, dúvidas, e ajudas mutuas, aqui é onde haverão varios desenvolvedores assim facilitando para você 
+divulgar conhecimentos, eventos, dúvidas, e ajudas mutuas, aqui é onde haverão varios desenvolvedores assim facilitando para você
 
 que procura por desenvolvedores.
 
@@ -47,7 +64,7 @@ Nossa organização também tem por objetivo de oferecer um leque de potenciais 
 
 ser útil para sua empresa ou organização, no site poderá ver coisas como, atuação, experiência profissional, e especializações,
 
-e assim fazer você mesmo sua escolha indo diretamente para o funcionário que deseja e conversando com ele por email, telegram, 
+e assim fazer você mesmo sua escolha indo diretamente para o funcionário que deseja e conversando com ele por email, telegram,
 
 o que seja.
 
@@ -76,6 +93,6 @@ desenvolvedores que ajudarão bastante seu projeto.
 
 Você que é desenvolvedor e tem um plano para um projeto pode falar conosco para te ajudar gratuitamente (dependendo do objetivo de
 
-seu projeto). 
+seu projeto).
 
 ​
