@@ -15,16 +15,17 @@ Para criar a _branch_ de sugestão, comece pelos seguintes comandos:
 
  Agora, sim, pode trabalhar nas sugestões, utilizando os softwares que preferir para edição de código :yellow_heart:
 
- Quando finalizar as sugestões, ainda estando na _branch_ draft, adicione os arquivos para sua _Staged area_ local usando no terminal: `git add`
-   o SSH quando este estiver em
-  uma branch simular o ambiente em seu local:
-
-```git
-
-  git clone -b draft https://github.com/WebDevRN/WebDevRN.github.io.git
-
-```
-
+ Quando finalizar as sugestões, entre no terminal e acesse o diretório do repositório, para realizar os seguintes passos:
+  * verifique se está na _branch_ draft usando `git branch`. Se aparecer __*__ ao lado de _draft_, significa que estará nela. Se o __*__ estiver ao lado de outra branch, digite `git checkout draft`. Se você trabalhou nas sugestões em outra _branch_ (que não a _draft_), estando na branch draft, use o comando `git merge <nome da branch da qual deseja trazer as alterações e mesclá-las na branch draft, sem essas tags aqui>`. Agora, está ok para seguir. Não saia da branch draft! ;)
+  * adicione os arquivos para sua _Staged area_ local usando `git add .` no terminal (dentro do diretório do reposi)
+  * submeta efetivamente as mudanças para sua o repositório local, usando `git commit -m "msg muito curta, sintetizando suas alterações"`.
+  * alternativamente, os dois passos anteriores podem ser realizandos utilizando-se somente `git commit -a -m "msg"`.
+  Pronto, as suas sugestões estão na sua máquina local, prestes a serem enviadas para seu usuário no GitHub. Se lembrou de algo a ser melhorado (e evitar fazer os passos até agora novamente), a hora de revertê-las é [agora](https://brorlandi.github.io/git-desfazendo-commits "Artigo explicativo sobre essa operação"). Se está tudo ok, faça o seguinte:
+  * verifique o nome que o GitHub deu ao repositório online no seu usuário digitando o comando `git remote` (provavelmente será o nome _origin_).
+  * envie o seu repositório atual para o repositório online com o comando `git push <nome que o GitHub deu ao seu repositório online - vide passo anterior, sem essas tags aqui> draft`.
+  Pronto! Seu repositório online já estará com suas sugestões atualizadas. Verifique em seu navegador como ficaram. Depois que revisar e considerar que estão ok mesmo, é chegada a hora da sua sugestão se efetivar! :smiley:
+  Entre no repositório em seu usuário e veja que agora o botão verde diz "Compare & pull request".
+  
 Colabore dando um fork na branch `draft` e depois nos dê um pull request <3
 
 ​
