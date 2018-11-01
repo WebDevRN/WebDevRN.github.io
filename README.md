@@ -23,27 +23,17 @@ Quando finalizar as sugestões, entre no terminal e acesse o diretório do repos
   * alternativamente, os dois passos anteriores podem ser realizandos utilizando-se somente `git commit -a -m "msg"`.
 
 Pronto, as suas sugestões estão na sua máquina local, prestes a serem enviadas para seu usuário no GitHub. Se lembrou de algo a ser melhorado (e evitar fazer os passos até agora novamente), a hora de revertê-las é [agora](https://brorlandi.github.io/git-desfazendo-commits "Artigo explicativo sobre essa operação"). Se está tudo ok, faça o seguinte:
-* verifique o nome que o GitHub deu ao repositório online no seu usuário digitando o comando `git remote` (provavelmente será o nome _origin_).
-* talvez o GitHub vá recusar a versão local que você está submetendo, por não estar sincronizado com a última versão online. Uma maneira de se resolver esse impasse é utilizando `git pull <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem as tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git pull origin draft`.
-* envie o seu repositório atual para o repositório online com o comando `git push <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem essas tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git push origin draft`.
+  * verifique o nome que o GitHub deu ao repositório online no seu usuário digitando o comando `git remote` (provavelmente será o nome _origin_).
+  * talvez o GitHub vá recusar a versão local que você está submetendo, por não estar sincronizado com a última versão online. Uma maneira de se resolver esse impasse é utilizando `git pull <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem as tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git pull origin draft`.
+  * envie o seu repositório atual para o repositório online com o comando `git push <nome que o GitHub deu ao seu repositório online - vide 1o passo deste bloco, sem essas tags aqui> draft`. Se o nome do repositório online for _origin_, esse comando anterior será `git push origin draft`.
 
-Pronto! Seu repositório online já estará com suas sugestões atualizadas. Verifique em seu navegador como ficaram. Depois que revisar e considerar que estão ok mesmo, é chegada a hora da sua sugestão se efetivar! :smiley:
+Pronto! Seu repositório online já estará com suas sugestões atualizadas. Verifique em seu navegador como ficaram. Depois que revisar e considerar que estão ok mesmo, é chegada a hora da sua sugestão para os mantenedores do repositório original se efetivar! :smiley:
 
-Entre no repositório em seu usuário e veja que agora o botão verde diz "Compare & pull request".
+Entre no repositório em seu usuário e veja que agora o botão verde diz `"Compare & pull request"`. Clique nele e será encaminhado para dentro do repositório original. Faça uma última verificação nas alterações (base fork é no do WebDevRN, na branch draft; head fork é o repo no seu usuário, na branch draft) e, estando ok, escreva um título e comentário para as sugestões que você está submetendo aos mantenedores do repositório original. Estas serão apresentadas na página de **Pull requests** do repositório original.
 
-Colabore dando um fork na branch `draft` e depois nos dê um pull request <3
-
-​
 Sua ajuda será bem vinda!
-​
-​
-<h1 align="center">
 
-  <a href="https://WebDevRN.github.io/"><img src="https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg" alt="WebTorrent" width="600"></a>
-​
-
-</h1>
-
+[![Logotipo da comunidade WebDevRN](https://raw.githubusercontent.com/WebDevRN/WebDevRN.github.io/master/assets/logo.jpeg "WebDevRN")](https://WebDevRN.github.io/ "Site do WebDevRN")
 ​
 Somos uma organização regional sem fins lucrativos, do Rio grande do norte, com finalidade apresentar nossos desenvolvedores e
 
