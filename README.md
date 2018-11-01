@@ -42,12 +42,13 @@ Pronto! Sua sugestão foi submetida e agora a analisaremos com carinho! :blush:
 
 # Sobre a WebDevRN
 Somos um grupo de desenvolvedores legais e descolados! :grin:
+
 Brincadeira à parte, somos uma organização regional sem fins lucrativos com atuação no RN, que reúne estudantes e profissionais da Web, com finalidade de:
 * dar oportunidade aos desenvolvedores locais se apresentarem;
 * socializar conhecimentos técnicos (atuação como profissionais de sistemas web) entre nós;
 * divulgar eventos sobre assuntos técnicos de web, bem como a carreira e o mercado web;
 * cultivar laços de contatos (e amizade) entre os profissionais web do estado;
-* facilitar a vida dos recrutadores e selecionadores das empresas de TI e Publicidade (e outras, que também atuem com web), ao disponibilizar os portfólios de vários desses profissionais em um só local, para que possam analisá-los previamente aos devidos contatos;
+* facilitar a vida dos recrutadores e selecionadores das empresas de TI e Publicidade (e outras, que também atuem com web), ao disponibilizar os portfólios de vários desses profissionais em um só local, para que possam analisá-los previamente aos devidos contatos.
 
 # O que nós fazemos :eyeglasses: :headphones: :coffee: :pizza: :beer:
 O trabalho de profissionais de TI na Web tem diferentes perfis, tais como:
@@ -59,7 +60,7 @@ O trabalho de profissionais de TI na Web tem diferentes perfis, tais como:
   - **SRE - Engenheiro de Confiabilidade de Sites** _(também para empresas maiores...)_ - é o profissional que, usando de metodologias desenvolvidas pelo Google, fará seu sistema online mais ["escalável, confiável e eficiente"](https://novatec.com.br/livros/reliability-engineering/ "Livro do Google sobre SRE"), nas palavras de autores do Google.
   - **Profissional de Segurança** _(empresas de médio a grande porte)_ - quem garante que as boas práticas de segurança sejam adotadas e mantidas, bem como realiza rotinas de segurança, estabelece a Política de Segurança da Informação e garante que as aplicações e ativos da empresa estejam seguros.
 
-Isso tudo sem falar de outras áreas profissionais também importantes (mas não estão no nosso escopo de atuação), como:
+Isso tudo sem falar de outras áreas profissionais também importantes (mas que não estão no nosso escopo de atuação), como:
 * Designers;
 * Redatores;
 * Profissionais de Marketing;
@@ -68,7 +69,9 @@ Isso tudo sem falar de outras áreas profissionais também importantes (mas não
 
 # WebDevRN :green_heart: companies
 Nosso diretório de portfólios e outras ferramentas facilitará a busca de empresas que atuam na web por profissionais amantes de web, podendo analisar nossa atuação antes mesmo de nos entrevistar!
+
 Assim, poderão escolher mais facilmente o profissional que mais atende as demandas técnicas! :star:
+
 As "approaches" podem ocorrer de acordo com as possibilidades e preferências do selecionador, tais como: e-mail, Telegram :blue_heart:, visita à empresa ou outras.
 
 # Aos desenvolvedores! :metal:
@@ -78,4 +81,5 @@ Poderá incluir sites e sistemas feitos por você (ou com sua participação), p
 
 # Quer executar um projeto? :tophat:
 Você é uma empresa ou profissional de outra área e deseja contratar profissionais de TI que atuem na web?
+
 Pode utilizar nosso diretório a vontade, entrando em contato com quem é da atuação específica que necessita ou com a coordenação do WebDevRN, que tentaremos buscar a melhor pessoa para suas necessidades de projeto ou negócio!
